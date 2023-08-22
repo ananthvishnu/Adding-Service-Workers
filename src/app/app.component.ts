@@ -9,6 +9,7 @@ import { Post } from './post.model';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
+  title = 'app works!';
   posts: Post[] = [];
 
   constructor(private http: HttpClient) {}
